@@ -1,0 +1,7 @@
+name: txex-d8-demo
+recipe: pantheon
+config:
+  framework: drupal8
+  env: dev
+  site: txex-d8-demo
+  id: 231bef01-b06a-45b4-8b0b-00aaf3ee0b12
