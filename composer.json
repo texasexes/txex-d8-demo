@@ -3,12 +3,20 @@
   "description": "Install drops-8 with Composer on Pantheon.",
   "type": "project",
   "license": "MIT",
-  "repositories": [
-    {
+  "repositories": {
+    "drupal": {
       "type": "composer",
       "url": "https://packages.drupal.org/8"
+    },
+    "apdmt": {
+      "type": "vcs",
+      "url": "https://github.com/jeff-cardwell/adug_paragraphs_demo_main_theme.git"
+    },
+    "apdat": {
+      "type": "vcs",
+      "url": "https://github.com/jeff-cardwell/adug_paragraphs_demo_admin_theme.git"
     }
-  ],
+  },
     "require": {
     "composer/installers": "^1.0.20",
     "cweagans/composer-patches": "^1.0",
@@ -20,7 +28,12 @@
     "drupal/simple_block": "^1.0@beta",
     "drush/drush": "~8",
     "rvtraveller/qs-composer-installer": "^1.1",
-    "webflo/drupal-core-strict": "^8"
+    "webflo/drupal-core-strict": "^8",
+    "jeff-cardwell/apdmt": "dev-master",
+    "jeff-cardwell/apdat": "dev-master",
+    "drupal/paragraphs": "^1.0",
+    "drupal/field_group": "^1.0@RC",
+    "drupal/components": "^1.0"
   },
   "require-dev": {
     "mikey179/vfsstream": "^1.2",
