@@ -1,0 +1,19 @@
+uuid: 6867e3f9-2558-43d1-8d8d-8bae376aaed3
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_iwq4_quote
+field_name: field_iwq4_quote
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

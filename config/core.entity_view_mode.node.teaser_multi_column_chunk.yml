@@ -1,0 +1,10 @@
+uuid: d2bd3b3d-d8a2-47dd-a3aa-b2422ac37724
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.teaser_multi_column_chunk
+label: 'Teaser - Multi Column Chunk'
+targetEntityType: node
+cache: true

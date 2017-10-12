@@ -1,0 +1,9 @@
+uuid: 84c56cd3-a031-4d89-a4a2-25103c82abbf
+langcode: en
+status: true
+dependencies: {  }
+id: multi_column_chunk_1
+label: 'Multi Column Chunk - Using Component Library'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

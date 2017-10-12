@@ -1,0 +1,22 @@
+uuid: d5561835-a039-429c-bce8-5fe1ce4b347d
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - apdmt
+_core:
+  default_config_hash: CZ-qKYsi3axvlVQ8sha1HYeqvfb3BD2cwRlkxqYjYds
+id: apdmt_help
+theme: apdmt
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: b6495adc-36c9-4c10-861d-b141aa7b5cdb
+langcode: en
+status: true
+dependencies: {  }
+name: image_with_quote_crop_square
+label: 'Image With Quote -  Crop Square'
+effects:
+  fdd7b2ab-38ee-49c5-9da2-1177fb0a3d42:
+    uuid: fdd7b2ab-38ee-49c5-9da2-1177fb0a3d42
+    id: image_scale
+    weight: 1
+    data:
+      width: null
+      height: 700
+      upscale: false
+  666d3293-d656-4f9b-85b2-3a8ef4314d1a:
+    uuid: 666d3293-d656-4f9b-85b2-3a8ef4314d1a
+    id: image_crop
+    weight: 2
+    data:
+      width: 700
+      height: 700
+      anchor: center-center

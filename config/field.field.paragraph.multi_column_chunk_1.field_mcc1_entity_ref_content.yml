@@ -1,0 +1,30 @@
+uuid: 8f3f5885-0e14-49be-ba0d-de08056ece84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_mcc1_entity_ref_content
+    - node.type.demo_article
+    - paragraphs.paragraphs_type.multi_column_chunk_1
+  module:
+    - entity_reference_revisions
+id: paragraph.multi_column_chunk_1.field_mcc1_entity_ref_content
+field_name: field_mcc1_entity_ref_content
+entity_type: paragraph
+bundle: multi_column_chunk_1
+label: 'MCC1 Entity Ref Content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      demo_article: demo_article
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference_revisions

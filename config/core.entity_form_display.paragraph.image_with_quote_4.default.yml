@@ -1,0 +1,46 @@
+uuid: 5bfb2f14-b218-4266-b66c-d3e9d4d4fcc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.image_with_quote_4.field_iwq4_citation
+    - field.field.paragraph.image_with_quote_4.field_iwq4_image
+    - field.field.paragraph.image_with_quote_4.field_iwq4_quote
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.image_with_quote_4
+  module:
+    - image
+    - text
+id: paragraph.image_with_quote_4.default
+targetEntityType: paragraph
+bundle: image_with_quote_4
+mode: default
+content:
+  field_iwq4_citation:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_iwq4_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_iwq4_quote:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

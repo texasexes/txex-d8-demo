@@ -1,0 +1,20 @@
+uuid: 1872e06a-b1c8-4f00-b686-9f1dede6dddc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - paragraphs
+id: paragraph.field_mcc1_ref_content_type
+field_name: field_mcc1_ref_content_type
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 5
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

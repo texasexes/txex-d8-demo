@@ -1,0 +1,31 @@
+uuid: f4e77f19-cdcf-4db0-a3b8-ff4a9c8553d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser_multi_column_chunk
+    - field.field.node.demo_article.field_da_paragraphs
+    - node.type.demo_article
+  module:
+    - entity_reference_revisions
+    - user
+id: node.demo_article.teaser_multi_column_chunk
+targetEntityType: node
+bundle: demo_article
+mode: teaser_multi_column_chunk
+content:
+  field_da_paragraphs:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: teaser_multi_column_chunk
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

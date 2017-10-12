@@ -1,0 +1,21 @@
+uuid: cf496e5c-c1ca-4c05-9964-2176737d30fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: paragraph.field_mcc1_entity_ref_content
+field_name: field_mcc1_entity_ref_content
+entity_type: paragraph
+type: entity_reference_revisions
+settings:
+  target_type: node
+module: entity_reference_revisions
+locked: false
+cardinality: 5
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: 01def7f1-3df2-42b4-bd2e-38416d26b51f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - apdat
+_core:
+  default_config_hash: YpNktOxYjI_nfq9UpV0nUCBVIVvx3gAjMGQudyh2s3k
+id: apdat_page_title
+theme: apdat
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

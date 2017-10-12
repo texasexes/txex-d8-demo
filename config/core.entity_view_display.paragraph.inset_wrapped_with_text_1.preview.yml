@@ -1,0 +1,45 @@
+uuid: df0bacd3-9425-4eb9-a7ac-c4049de172fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.inset_wrapped_with_text_1.field_iwwt1_horizontal_alignment
+    - field.field.paragraph.inset_wrapped_with_text_1.field_iwwt1_image
+    - field.field.paragraph.inset_wrapped_with_text_1.field_iwwt1_text
+    - paragraphs.paragraphs_type.inset_wrapped_with_text_1
+  module:
+    - image
+    - options
+    - text
+id: paragraph.inset_wrapped_with_text_1.preview
+targetEntityType: paragraph
+bundle: inset_wrapped_with_text_1
+mode: preview
+content:
+  field_iwwt1_horizontal_alignment:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_iwwt1_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_iwwt1_text:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  created: true
+  uid: true

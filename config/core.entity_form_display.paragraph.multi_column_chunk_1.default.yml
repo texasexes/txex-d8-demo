@@ -1,0 +1,37 @@
+uuid: af2a4cd3-0668-4c17-984b-8fae4b86b952
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.multi_column_chunk_1.field_mcc1_entity_ref_content
+    - field.field.paragraph.multi_column_chunk_1.field_mcc1_ref_content_type
+    - paragraphs.paragraphs_type.multi_column_chunk_1
+  module:
+    - entity_reference_revisions
+id: paragraph.multi_column_chunk_1.default
+targetEntityType: paragraph
+bundle: multi_column_chunk_1
+mode: default
+content:
+  field_mcc1_entity_ref_content:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_autocomplete
+    region: content
+  field_mcc1_ref_content_type:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,28 @@
+uuid: 6cf0118d-524a-4a15-90d5-8b0ec6681905
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_mcc1_ref_content_type
+    - node.type.demo_article
+    - paragraphs.paragraphs_type.multi_column_chunk_1
+id: paragraph.multi_column_chunk_1.field_mcc1_ref_content_type
+field_name: field_mcc1_ref_content_type
+entity_type: paragraph
+bundle: multi_column_chunk_1
+label: 'MCC1 Ref Content Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      demo_article: demo_article
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,22 @@
+uuid: 4b23e8bb-6df4-4492-b638-ca1c8052aec9
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - apdat
+_core:
+  default_config_hash: cbqMulidx9rIGBDyBf9WEdlhQfg6roFhmYthTHZ4FsM
+id: apdat_help
+theme: apdat
+region: help
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

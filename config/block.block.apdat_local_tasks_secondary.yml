@@ -1,0 +1,22 @@
+uuid: 157ddc3f-2c1f-43a1-9cd9-99a3dd5ba9d5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - apdat
+_core:
+  default_config_hash: wrE5BiXjVXg_8f_Ias3UtiXEiGqEOykIH8WjabsQ0K0
+id: apdat_local_tasks_secondary
+theme: apdat
+region: pre_content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary Tabs'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

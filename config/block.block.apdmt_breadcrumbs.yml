@@ -1,0 +1,22 @@
+uuid: 81f6ffe1-8e97-49d0-bef1-e825ac076549
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - apdmt
+_core:
+  default_config_hash: Ajy5WhmZZpQB0UFx9LT_EK5Qqi4EBAMcOpNo49GVxlQ
+id: apdmt_breadcrumbs
+theme: apdmt
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 604699ea-0130-4d2b-bce1-66f0606a3b93
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - apdat
+_core:
+  default_config_hash: A_zSXFR2cwHPMjiJmdjU5uNiS1ez97VRUWzUAO0LXw4
+id: apdat_breadcrumbs
+theme: apdat
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

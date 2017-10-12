@@ -1,0 +1,20 @@
+uuid: b961eaca-d19f-4dad-b32d-0f16899d0d05
+langcode: en
+status: true
+dependencies:
+  theme:
+    - apdmt
+_core:
+  default_config_hash: sbi3KKaI_yuTAqtRFmMZ5zacdS7x5n5ye29xLYUo_II
+id: apdmt_local_actions
+theme: apdmt
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

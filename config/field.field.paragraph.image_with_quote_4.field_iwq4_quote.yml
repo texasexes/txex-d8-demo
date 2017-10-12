@@ -1,0 +1,21 @@
+uuid: 8332594a-39e6-4ef1-8612-e1ecadac9cec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_iwq4_quote
+    - paragraphs.paragraphs_type.image_with_quote_4
+  module:
+    - text
+id: paragraph.image_with_quote_4.field_iwq4_quote
+field_name: field_iwq4_quote
+entity_type: paragraph
+bundle: image_with_quote_4
+label: 'IWQ4 Quote'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

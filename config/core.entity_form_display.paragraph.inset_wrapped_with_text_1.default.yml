@@ -1,0 +1,45 @@
+uuid: 379d3e22-0bf6-4535-991c-19c2f15e1830
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.inset_wrapped_with_text_1.field_iwwt1_horizontal_alignment
+    - field.field.paragraph.inset_wrapped_with_text_1.field_iwwt1_image
+    - field.field.paragraph.inset_wrapped_with_text_1.field_iwwt1_text
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.inset_wrapped_with_text_1
+  module:
+    - image
+    - text
+id: paragraph.inset_wrapped_with_text_1.default
+targetEntityType: paragraph
+bundle: inset_wrapped_with_text_1
+mode: default
+content:
+  field_iwwt1_horizontal_alignment:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_iwwt1_image:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_iwwt1_text:
+    weight: 2
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

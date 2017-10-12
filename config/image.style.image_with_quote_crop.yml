@@ -1,0 +1,23 @@
+uuid: eaa785b4-6711-4b53-a378-051734d7c6f1
+langcode: en
+status: true
+dependencies: {  }
+name: image_with_quote_crop
+label: 'Image With Quote -  Crop'
+effects:
+  18a39d66-4298-4223-9aa5-d51cd5715833:
+    uuid: 18a39d66-4298-4223-9aa5-d51cd5715833
+    id: image_crop
+    weight: -9
+    data:
+      width: 700
+      height: 300
+      anchor: center-center
+  142c9d18-6ec7-47e5-8625-70bdf81056a9:
+    uuid: 142c9d18-6ec7-47e5-8625-70bdf81056a9
+    id: image_scale
+    weight: -10
+    data:
+      width: 700
+      height: null
+      upscale: false

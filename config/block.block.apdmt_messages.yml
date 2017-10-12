@@ -1,0 +1,22 @@
+uuid: b81eb02d-5d04-4e1c-8518-2bfa2bbcf2c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - apdmt
+_core:
+  default_config_hash: kwkL0t6TxsAgI8y2K1YJbR_xpL_UohlmkquGOcEmyCQ
+id: apdmt_messages
+theme: apdmt
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

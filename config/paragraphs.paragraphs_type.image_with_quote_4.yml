@@ -1,0 +1,9 @@
+uuid: 627dbde9-2997-4ac1-8b40-f767fa081a79
+langcode: en
+status: true
+dependencies: {  }
+id: image_with_quote_4
+label: 'Image with Quote - Using Component Library and Field Groups'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

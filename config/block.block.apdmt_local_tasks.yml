@@ -1,0 +1,22 @@
+uuid: ba16f9f7-ec36-4e59-a08d-db6e7f589f36
+langcode: en
+status: true
+dependencies:
+  theme:
+    - apdmt
+_core:
+  default_config_hash: p4yAngiIE6zQlPXb0w4z_yDEiXZLkT1mfQkNey1BPYU
+id: apdmt_local_tasks
+theme: apdmt
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: c3ab24b2-0a58-400b-a6c7-0d43e7688ca8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - apdat
+_core:
+  default_config_hash: d_2uQIG6-45k4ty4kr9xsbNW-BaVrgg5W9EWrxiABGU
+id: apdat_local_actions
+theme: apdat
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

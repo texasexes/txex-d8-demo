@@ -1,0 +1,22 @@
+uuid: 0c70be51-dec2-4001-bf7b-4d317b6cf547
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - apdmt
+_core:
+  default_config_hash: gMSE5eWpXQVGdyah4A-p7qTTQg6-lb1gwEcPiSIn1LU
+id: apdmt_content
+theme: apdmt
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

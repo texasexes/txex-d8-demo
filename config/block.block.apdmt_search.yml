@@ -1,0 +1,22 @@
+uuid: 605c0d62-9844-42c4-9f7d-e100dc37df6e
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - apdmt
+_core:
+  default_config_hash: m6EmMxLzbyIgc6G2ycxi8l4PSKfTjd8duxlHU85uHuk
+id: apdmt_search
+theme: apdmt
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

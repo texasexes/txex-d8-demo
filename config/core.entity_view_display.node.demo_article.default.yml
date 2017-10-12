@@ -1,0 +1,30 @@
+uuid: 149c5d29-4b1b-498a-bc65-d668a35913c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.demo_article.field_da_paragraphs
+    - node.type.demo_article
+  module:
+    - entity_reference_revisions
+    - user
+id: node.demo_article.default
+targetEntityType: node
+bundle: demo_article
+mode: default
+content:
+  field_da_paragraphs:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

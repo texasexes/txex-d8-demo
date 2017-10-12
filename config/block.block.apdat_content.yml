@@ -1,0 +1,22 @@
+uuid: 48da1f04-d321-47f5-b41d-9f7e9cfc8bf6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - apdat
+_core:
+  default_config_hash: fKFWGbtAOhgl45iy91lcKyw-_UyEw96V70jTdc8vzFs
+id: apdat_content
+theme: apdat
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

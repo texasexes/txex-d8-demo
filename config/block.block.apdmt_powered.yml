@@ -1,0 +1,22 @@
+uuid: 12e40f48-c7a0-49e5-9b66-154407dc0d41
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - apdmt
+_core:
+  default_config_hash: '-Dr1XdP6JCjYkNTG6oN-_FBu5qVk0O2RUOsMhg7cKAw'
+id: apdmt_powered
+theme: apdmt
+region: footer_fifth
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

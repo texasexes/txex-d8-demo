@@ -1,0 +1,10 @@
+uuid: e90a42cb-4b97-4cf6-882c-9e74d5f96369
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.teaser_multi_column_chunk
+label: 'Teaser - Multi Column Chunk'
+targetEntityType: paragraph
+cache: true

@@ -1,0 +1,96 @@
+uuid: e9063643-ed19-4ce5-83cf-e4c7b7d9c5ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.image_with_quote_4.field_iwq4_citation
+    - field.field.paragraph.image_with_quote_4.field_iwq4_image
+    - field.field.paragraph.image_with_quote_4.field_iwq4_quote
+    - image.style.image_with_quote_crop
+    - paragraphs.paragraphs_type.image_with_quote_4
+  module:
+    - field_group
+    - image
+    - text
+third_party_settings:
+  field_group:
+    group_region_1:
+      children:
+        - field_iwq4_image
+      parent_name: group_component
+      weight: 20
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: image-with-quote-overlay__image
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Region 1'
+    group_region_2:
+      children:
+        - field_iwq4_quote
+      parent_name: group_component
+      weight: 21
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: image-with-quote-overlay__quote
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Region 2'
+    group_region_3:
+      children:
+        - field_iwq4_citation
+      parent_name: group_component
+      weight: 22
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: image-with-quote-overlay__citation
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Region 3'
+id: paragraph.image_with_quote_4.preview
+targetEntityType: paragraph
+bundle: image_with_quote_4
+mode: preview
+content:
+  field_iwq4_citation:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_iwq4_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: image_with_quote_crop
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_iwq4_quote:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  created: true
+  uid: true

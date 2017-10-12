@@ -1,0 +1,9 @@
+uuid: 39617e43-c086-40a9-9787-b8471ba08219
+langcode: en
+status: true
+dependencies: {  }
+id: inset_wrapped_with_text_1
+label: 'Inset Wrapped With Text - Using Component Library'
+icon_uuid: null
+description: null
+behavior_plugins: {  }

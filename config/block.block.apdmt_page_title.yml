@@ -1,0 +1,20 @@
+uuid: 8c2a8653-1b7e-4388-a596-4c48ce8a6b3f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - apdmt
+_core:
+  default_config_hash: DTUqAEyPzu6IeJ223qP76IqN2cM4U4SVxKM5AV8UzF0
+id: apdmt_page_title
+theme: apdmt
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

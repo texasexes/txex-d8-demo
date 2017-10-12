@@ -1,0 +1,22 @@
+uuid: e5ff54a6-2541-4795-a804-aa0b89f1f43b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - apdat
+_core:
+  default_config_hash: Hc3v949VKE6T6C882h-7-grlqTOCOaLoQtF_EXchQKw
+id: apdat_messages
+theme: apdat
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
