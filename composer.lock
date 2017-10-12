@@ -2486,12 +2486,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeff-cardwell/adug_paragraphs_demo_admin_theme.git",
-                "reference": "c972e881ba6a8653c58d06c63dad840a4fde4078"
+                "reference": "0170538bb8a8aac8dfc548c190af1a2a4a1a3d73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeff-cardwell/adug_paragraphs_demo_admin_theme/zipball/c972e881ba6a8653c58d06c63dad840a4fde4078",
-                "reference": "c972e881ba6a8653c58d06c63dad840a4fde4078",
+                "url": "https://api.github.com/repos/jeff-cardwell/adug_paragraphs_demo_admin_theme/zipball/0170538bb8a8aac8dfc548c190af1a2a4a1a3d73",
+                "reference": "0170538bb8a8aac8dfc548c190af1a2a4a1a3d73",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -2509,7 +2509,7 @@
                 "source": "https://github.com/jeff-cardwell/adug_paragraphs_demo_admin_theme/tree/master",
                 "issues": "https://github.com/jeff-cardwell/adug_paragraphs_demo_admin_theme/issues"
             },
-            "time": "2017-02-14T23:33:51+00:00"
+            "time": "2017-10-12T15:08:49+00:00"
         },
         {
             "name": "jeff-cardwell/apdmt",
